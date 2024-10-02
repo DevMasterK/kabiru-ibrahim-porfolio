@@ -22,17 +22,30 @@
     </nav>
   </header>
 
-  <section>
+  <section class="contact">
     <div class="container">
-      <h2>Contact Kabiru Ibrahim Manager</h2>
-      <p>Manager Email: kevinolubiyi@gmail.com</p>
-      <p>Phone: +234 703 359 9893</p>
-      <p>LinkedIn: <a href="#">Kabiru's LinkedIn</a></p>
+      <h2>Contact Kabiru Ibrahim</h2>
+      <p>If you're interested in connecting with Kabiru for opportunities to join your academy, collaborate with your community as a certified coach to train your players or clients, or for coaching, refereeing, or any other inquiries, please fill out the form below.:</p>
+      <p class="<?php echo $feedbackClass; ?>"><?php echo $feedback; ?></p>
+      <?php endif; ?>
+      <form id="contact-form" method="POST" action="contact.php">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
     </div>
   </section>
 
   <footer class="footer">
     <p>&copy; 2024 Kabiru Ibrahim. All Rights Reserved.</p>
-  </footer>
+  </footer>  
+  <script src="js/main.js"></script>
 </body>
 </html>

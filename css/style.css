@@ -141,3 +141,70 @@
   left: 0;
   top: 0;
 }
+
+/* Contact Form */
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form label {
+  margin: 10px 0 5px;
+}
+
+.contact form input,
+.contact form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact form button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact form button:hover {
+  background-color: #555;
+}
+
+/* Styling for success message */
+.success-message {
+  color: green;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Styling for error message */
+.error-message {
+  color: red;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Other form styles */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
