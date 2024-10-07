@@ -44,6 +44,12 @@
   header h1 {
     font-size: 2rem;
   }
+
+  nav {
+    background-color: #697565; /* Change this to your chosen color */
+    padding: 10px 0; /* Optional: add some padding */
+  }
+
   
   nav ul {
     list-style: none;
@@ -56,12 +62,16 @@
   }
   
   nav ul li a {
-    color: #fff;
+    color: #FFFDD0;
     text-decoration: none;
   }
   
   nav ul li a:hover {
     text-decoration: underline;
+  }
+
+  nav ul li a:hover {
+    color: #ece9f3; /* Change to orange on hover */
   }
   
   section {
